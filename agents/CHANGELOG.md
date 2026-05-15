@@ -1,5 +1,32 @@
 # @livekit/agents
 
+## 1.4.3
+
+### Patch Changes
+
+- Improve audio discard checks - [#1504](https://github.com/livekit/agents-js/pull/1504) ([@rosetta-livekit-bot](https://github.com/apps/rosetta-livekit-bot))
+
+- Add dynamic endpointing for voice turn handling. - [#1475](https://github.com/livekit/agents-js/pull/1475) ([@rosetta-livekit-bot](https://github.com/apps/rosetta-livekit-bot))
+
+- Add beta workflow InstructionParts exports. - [#1500](https://github.com/livekit/agents-js/pull/1500) ([@rosetta-livekit-bot](https://github.com/apps/rosetta-livekit-bot))
+
+- fix audio resampler memory leak. - [#1453](https://github.com/livekit/agents-js/pull/1453) ([@KrishnaShuk](https://github.com/KrishnaShuk))
+
+- feat(agents): add modality-aware `Instructions` with audio/text variants - [#1484](https://github.com/livekit/agents-js/pull/1484) ([@toubatbrian](https://github.com/toubatbrian))
+
+  Introduce a new `Instructions` class for system prompts that adapt to the
+  user's input modality. The pipeline now applies the matching variant before
+  each LLM turn based on `SpeechHandle.inputDetails.modality`, and
+  `AgentSession.generateReply()` and `AgentSession.run()` expose an
+  `inputModality` option. `Instructions.tpl` supports JS-native prompt
+  composition while preserving audio/text variants.
+
+- brianyin/agt-2866-delete-room-on-session-close - [#1501](https://github.com/livekit/agents-js/pull/1501) ([@toubatbrian](https://github.com/toubatbrian))
+
+- fix(agents): await realtime auto tool replies in RunResult - [#1490](https://github.com/livekit/agents-js/pull/1490) ([@rosetta-livekit-bot](https://github.com/apps/rosetta-livekit-bot))
+
+- feat(agents): add Speechmatics inference STT model options. - [#1507](https://github.com/livekit/agents-js/pull/1507) ([@rosetta-livekit-bot](https://github.com/apps/rosetta-livekit-bot))
+
 ## 1.4.2
 
 ### Patch Changes
