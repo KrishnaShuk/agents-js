@@ -1,5 +1,12 @@
 # @livekit/agents-plugin-neuphonic
 
+## 1.4.3
+
+### Patch Changes
+
+- Updated dependencies [[`cdcb4ba17a61981292c9b8e816bc624e7064f6af`](https://github.com/livekit/agents-js/commit/cdcb4ba17a61981292c9b8e816bc624e7064f6af), [`10236d90533600f5eee65c40792499d937cb48ba`](https://github.com/livekit/agents-js/commit/10236d90533600f5eee65c40792499d937cb48ba), [`a379a2ad67b9af06c2943d191173184c009f6ad1`](https://github.com/livekit/agents-js/commit/a379a2ad67b9af06c2943d191173184c009f6ad1), [`60ddb656072ab34ec5dad8274e8f9bf96ff37c8e`](https://github.com/livekit/agents-js/commit/60ddb656072ab34ec5dad8274e8f9bf96ff37c8e), [`b7fdbe1f93b9551406c754cfb1f3273cf97efbcc`](https://github.com/livekit/agents-js/commit/b7fdbe1f93b9551406c754cfb1f3273cf97efbcc), [`213385270e23d70b97d330be87fa30c3eb5d92d1`](https://github.com/livekit/agents-js/commit/213385270e23d70b97d330be87fa30c3eb5d92d1), [`a8361c16c595226815e64293796544a23a35d14d`](https://github.com/livekit/agents-js/commit/a8361c16c595226815e64293796544a23a35d14d), [`abb23c88e9e597d4047324c0af9295ada2fb03c9`](https://github.com/livekit/agents-js/commit/abb23c88e9e597d4047324c0af9295ada2fb03c9)]:
+  - @livekit/agents@1.4.3
+
 ## 1.4.2
 
 ### Patch Changes
